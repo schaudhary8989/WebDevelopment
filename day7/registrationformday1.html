@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    
+</head>
+<body>
+    <h2>Registration Form</h2>
+<form>
+    <label for="username">Username:</label>
+    <input type="text" name="username" id="username">
+<br>
+<br>
+<label for="emailid">Email:</label>
+<input type="emailid" name="emailid" id="email">
+<br>
+<br>
+<label for="password">Password:</label>
+<input type="password" id="password" name=" password">
+<br>
+<br>
+ <!-- abb mujhe gender me for ka use nahi hai kyuki isme mujhe click nahi karna koi ek select karna hai NAHI BHI FOR LIKHUNGI TO BHI CHAL JAAYEGA-->
+<label>Gender:</label>
+<!-- value ki value humeshA UNIQue hogi lekin isme hum same rkhenge kyoki koi ek bubble select karna hai-->
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">male</label>
+<input type="radio" id="female" name = "gender" value="female" >
+<label for="female">female</label>
+<!-- for ka ROLE kitna IMP Hai isme dekho agar me FOR ke =equal value naa likhu to other me circle me fill bhi nahi hoga-->
+
+<input type="radio" id="other" input ="gender" value="other">
+<label for="other">other</label>
+
+<!-- abb se imp humme inme se 3 gender me se to koi ek hi select karna to akise hogaabb next point-->
+ <!-- use : name ="gender" teeno input radio me ADD hoga-->
+
+ <!-- aur value ka mtlb hai backened me store ho jaayega ki gender male hoga ya female hoga ya other hoga iski value-->
+  <br>
+  <br>
+  <input type="checkbox" id="term" name="agree">
+  <label for="term"> I agree to the term and conditions</label>
+  <br>
+  <br>
+  <button>Register</button>
+</form>
+
+    
+</body>
