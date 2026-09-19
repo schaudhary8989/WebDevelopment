@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    display: inline-block;
+    margin: 10px;
+    width: 500px;
+}
+
+.Box{
+    display: inline-block;
+}
+
+.img{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+/* Restaurant Name + Rating */
+
+.Restaurant{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Restaurant_name{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.rating{
+    background-color: green;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 8px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* Food + Price */
+
+.food{
+    position: relative;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.food_name{
+    font-size: 22px;
+    color: gray;
+}
+
+.price{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 20px;
+    color: gray;
+}
+
+/* Place + Distance */
+
+.location{
+    position: relative;
+    margin-top: 12px;
+}
+
+.Place{
+    font-size: 20px;
+    color: gray;
+}
+
+.Distance{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 18px;
+    color: gray;
+}

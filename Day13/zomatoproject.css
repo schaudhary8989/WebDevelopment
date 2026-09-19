@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  display: inline-block;
+  margin: 10px;
+}
+
+.Box {
+  display: inline-block;
+}
+
+.img {
+  height: 150px;
+  width: auto;
+  border-radius: 20px;
+}
+
+.Restaurant_name {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.Restaurant, .food, .location {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Rating top right */
+.rating {
+  background-color: green;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  height: 20px;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* Price rating ke niche */
+.price {
+  position: absolute;
+  right: 5px;
+  top: 30px;   /* thoda neeche kiya */
+  font-size: 15px;
+  color: black;
+}
+
+/* Distance price ke niche */
+.Distance {
+  position: absolute;
+  right: 5px;
+  top: 60px;   /* thoda aur neeche kiya */
+  font-size: 15px;
+  color:black; /* dark gray taaki clearly visible ho */
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
